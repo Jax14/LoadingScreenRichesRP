@@ -1,0 +1,42 @@
+{
+  "rules": [
+    "Don't be annoying.",
+    "No ghosting or RDMing.",
+    "No hacking or exploiting.",
+    "No spamming or harassing other players.",
+    "No gore/porn sprays.",
+    "No camping/delaying when most are dead.",
+    "No prop surfing to unreachable areas.",
+    "No prop killing as spectator.",
+    "No unreadable nicknames.",
+    "Obey all staff orders."
+  ],
+
+  "staff": [
+    "Staff Member 1",
+    "Staff Member 2",
+    "Staff Member 3",
+    "Staff Member 4",
+    "Staff Member 5",
+    "Staff Member 6"
+  ],
+
+  "backgrounds": [
+    "media/backs/theme/1.jpg",
+    "media/backs/theme/2.jpg",
+    "media/backs/theme/3.jpg",
+    "media/backs/theme/4.jpg",
+    "media/backs/theme/5.jpg"
+  ],
+
+  "music_off":[
+    "media/music/1.ogg"
+  ],
+
+  "volume": 0.3,
+  "speed": 10,
+  "welcome": "Welcome to our server, it could take a moment for the files to download so just hang tight and listen to some music!",
+  "quote": "Do not take life too seriously. You will never get out of it alive.",
+  "logo": "media/logos/logo.png",
+  "icon": "media/logos/server_icon.png"
+}

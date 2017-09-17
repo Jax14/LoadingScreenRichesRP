@@ -1,0 +1,207 @@
+{
+  "ttt_arena_1": {
+    "name": "Arena",
+    "icon": "media/icons/maps/ttt_arena_1.png",
+    "back": "media/backs/maps/ttt_arena_1.jpg"
+  },
+  "ttt_bb_teenroom_b2": {
+    "name": "Teen Room",
+    "icon": "media/icons/maps/ttt_bb_teenroom_b2.png",
+    "back": "media/backs/maps/ttt_bb_teenroom_b2.jpg"
+  },
+  "ttt_bunker": {
+    "name": "Bunker",
+    "icon": "media/icons/maps/ttt_bunker.png",
+    "back": "media/backs/maps/ttt_bunker.jpg"
+  },
+  "ttt_community_bowling_v5a": {
+    "name": "Community Bowling",
+    "icon": "media/icons/maps/ttt_community_bowling_v5a.png",
+    "back": "media/backs/maps/ttt_community_bowling_v5a.jpg"
+  },
+  "ttt_cyberia_a3": {
+    "name": "Cyberia",
+    "icon": "media/icons/maps/ttt_cyberia_a3.png",
+    "back": "media/backs/maps/ttt_cyberia_a3.jpg"
+  },
+  "ttt_dolls": {
+    "name": "Dolls",
+    "icon": "media/icons/maps/ttt_dolls.png",
+    "back": "media/backs/maps/ttt_dolls.jpg"
+  },
+  "ttt_fg_sexy_render_v6a": {
+    "name": "Sexy Render",
+    "icon": "media/icons/maps/ttt_fg_sexy_render_v6a.png",
+    "back": "media/backs/maps/ttt_fg_sexy_render_v6a.jpg"
+  },
+  "ttt_forest_final": {
+    "name": "Forest",
+    "icon": "media/icons/maps/ttt_forest_final.png",
+    "back": "media/backs/maps/ttt_forest_final.jpg"
+  },
+  "ttt_giant_daycare_v2": {
+    "name": "Giant Daycare",
+    "icon": "media/icons/maps/ttt_giant_daycare_v2.png",
+    "back": "media/backs/maps/ttt_giant_daycare_v2.jpg"
+  },
+  "ttt_mc_frozen": {
+    "name": "Minecraft Frozen",
+    "icon": "media/icons/maps/ttt_mc_frozen.png",
+    "back": "media/backs/maps/ttt_mc_frozen.jpg"
+  },
+  "ttt_mc_jondome": {
+    "name": "Minecraft Jondome",
+    "icon": "media/icons/maps/ttt_mc_jondome.png",
+    "back": "media/backs/maps/ttt_mc_jondome.jpg"
+  },
+  "ttt_mc_mineshaft": {
+    "name": "Minecraft Mineshaft",
+    "icon": "media/icons/maps/ttt_mc_mineshaft.png",
+    "back": "media/backs/maps/ttt_mc_mineshaft.jpg"
+  },
+  "ttt_mc_tiptsky_b5": {
+    "name": "Minecraft Tiptsky",
+    "icon": "media/icons/maps/ttt_mc_tiptsky_b5.png",
+    "back": "media/backs/maps/ttt_mc_tiptsky_b5.jpg"
+  },
+  "ttt_mcairship": {
+    "name": "Minecraft Airship",
+    "icon": "media/icons/maps/ttt_mcairship.png",
+    "back": "media/backs/maps/ttt_mcairship.jpg"
+  },
+  "ttt_mcdonalds": {
+    "name": "McDonalds",
+    "icon": "media/icons/maps/ttt_mcdonalds.png",
+    "back": "media/backs/maps/ttt_mcdonalds.jpg"
+  },
+  "ttt_mcisland_b1": {
+    "name": "Minecraft Island",
+    "icon": "media/icons/maps/ttt_mcisland_b1.png",
+    "back": "media/backs/maps/ttt_mcisland_b1.jpg"
+  },
+  "ttt_mcmansion_v5": {
+    "name": "Minecraft Mansion",
+    "icon": "media/icons/maps/ttt_mcmansion_v5.png",
+    "back": "media/backs/maps/ttt_mcmansion_v5.jpg"
+  },
+  "ttt_mcnpcvillage_day": {
+    "name": "Minecraft Village",
+    "icon": "media/icons/maps/ttt_mcnpcvillage_day.png",
+    "back": "media/backs/maps/ttt_mcnpcvillage_day.jpg"
+  },
+  "ttt_mcnpcvillagev2c": {
+    "name": "Minecraft Village (alt)",
+    "icon": "media/icons/maps/ttt_mcnpcvillagev2c.png",
+    "back": "media/backs/maps/ttt_mcnpcvillagev2c.jpg"
+  },
+  "ttt_mcvillage_v5": {
+    "name": "Minecraft Village (alt)",
+    "icon": "media/icons/maps/ttt_mcvillage_v5.png",
+    "back": "media/backs/maps/ttt_mcvillage_v5.jpg"
+  },
+  "ttt_minecraft_b5": {
+    "name": "Minecraft",
+    "icon": "media/icons/maps/ttt_minecraft_b5.png",
+    "back": "media/backs/maps/ttt_minecraft_b5.jpg"
+  },
+  "ttt_minecraft_cargoship_v2": {
+    "name": "Minecraft Cargoship",
+    "icon": "media/icons/maps/ttt_minecraft_cargoship_v2.png",
+    "back": "media/backs/maps/ttt_minecraft_cargoship_v2.jpg"
+  },
+  "ttt_minecraft_haven": {
+    "name": "Minecraft Haven",
+    "icon": "media/icons/maps/ttt_minecraft_haven.png",
+    "back": "media/backs/maps/ttt_minecraft_haven.jpg"
+  },
+  "ttt_minecraft_mythic_b8": {
+    "name": "Minecraft Mythic",
+    "icon": "media/icons/maps/ttt_minecraft_mythic_b8.png",
+    "back": "media/backs/maps/ttt_minecraft_mythic_b8.jpg"
+  },
+  "ttt_minecraftains_lrc_v1": {
+    "name": "Minecraft Tains",
+    "icon": "media/icons/maps/ttt_minecraftains_lrc_v1.png",
+    "back": "media/backs/maps/ttt_minecraftains_lrc_v1.jpg"
+  },
+  "ttt_minecraftcity_v4": {
+    "name": "Minecraft City",
+    "icon": "media/icons/maps/ttt_minecraftcity_v4.png",
+    "back": "media/backs/maps/ttt_minecraftcity_v4.jpg"
+  },
+  "ttt_minecraftcity_v4_dark": {
+    "name": "Minecraft City Dark",
+    "icon": "media/icons/maps/ttt_minecraftcity_v4_dark.png",
+    "back": "media/backs/maps/ttt_minecraftcity_v4_dark.jpg"
+  },
+  "ttt_nether": {
+    "name": "Nether",
+    "icon": "media/icons/maps/ttt_nether.png",
+    "back": "media/backs/maps/ttt_nether.jpg"
+  },
+  "ttt_nuclear_power_b1": {
+    "name": "Nuclear Power",
+    "icon": "media/icons/maps/ttt_nuclear_power_b1.png",
+    "back": "media/backs/maps/ttt_nuclear_power_b1.jpg"
+  },
+  "ttt_pacman_v1": {
+    "name": "Pacman",
+    "icon": "media/icons/maps/ttt_pacman_v1.png",
+    "back": "media/backs/maps/ttt_pacman_v1.jpg"
+  },
+  "ttt_parking_alley_v3": {
+    "name": "Parking Alley",
+    "icon": "media/icons/maps/ttt_parking_alley_v3.png",
+    "back": "media/backs/maps/ttt_parking_alley_v3.jpg"
+  },
+  "ttt_skycraftfinal": {
+    "name": "Skycraft",
+    "icon": "media/icons/maps/ttt_skycraftfinal.png",
+    "back": "media/backs/maps/ttt_skycraftfinal.jpg"
+  },
+  "ttt_skyscraper_2015_v1gf": {
+    "name": "Skyscraper",
+    "icon": "media/icons/maps/ttt_skyscraper_2015_v1gf.png",
+    "back": "media/backs/maps/ttt_skyscraper_2015_v1gf.jpg"
+  },
+  "ttt_slender": {
+    "name": "Slender",
+    "icon": "media/icons/maps/ttt_slender.png",
+    "back": "media/backs/maps/ttt_slender.jpg"
+  },
+  "ttt_slender_v2": {
+    "name": "Slender (alt)",
+    "icon": "media/icons/maps/ttt_slender_v2.png",
+    "back": "media/backs/maps/ttt_slender_v2.jpg"
+  },
+  "ttt_southpark": {
+    "name": "Southpark",
+    "icon": "media/icons/maps/ttt_southpark.png",
+    "back": "media/backs/maps/ttt_southpark.jpg"
+  },
+  "ttt_subway_b4": {
+    "name": "Subway",
+    "icon": "media/icons/maps/ttt_subway_b4.png",
+    "back": "media/backs/maps/ttt_subway_b4.jpg"
+  },
+  "ttt_swimming_pool": {
+    "name": "Swimming Pool",
+    "icon": "media/icons/maps/ttt_swimming_pool.png",
+    "back": "media/backs/maps/ttt_swimming_pool.jpg"
+  },
+  "ttt_terrortown": {
+    "name": "Terror Town",
+    "icon": "media/icons/maps/ttt_terrortown.png",
+    "back": "media/backs/maps/ttt_terrortown.jpg"
+  },
+  "ttt_villagecraft_lrc_v1": {
+    "name": "Village Craft",
+    "icon": "media/icons/maps/ttt_villagecraft_lrc_v1.png",
+    "back": "media/backs/maps/ttt_villagecraft_lrc_v1.jpg"
+  },
+  "ttt_waterworld": {
+    "name": "Water World",
+    "icon": "media/icons/maps/ttt_waterworld.png",
+    "back": "media/backs/maps/ttt_waterworld.jpg"
+  }
+}

@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href='http://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+
+    <!-- Slaider CSS -->
+    <link rel="stylesheet" type="text/css" href="assets/css/slider.css" />
+    <noscript>
+        <link rel="stylesheet" type="text/css" href="assets/css/sliderNoJS.css" />
+    </noscript>
+
+    <!-- Main CSS -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <style>
+        {if="isset($backgrounds)"}
+            {loop="backgrounds"}
+                .gmod .bg-{$counter+1} .sl-slide-inner, .gmod .bg-{$counter+1} .sl-content-slice {  background-image: url("{$value}"); background-size: cover;  }
+            {/loop}
+        {/if}
+    </style>
+
+    <!-- Modernizr JS -->
+    <script type="text/javascript" src="assets/js/modernizr.js"></script>
+
+</head>
+<body>
+
+<div class="container gmod">
+    <div class="progress"><span></span></div>
+    <div id="loading"><span>Loading...</span></div>
+    {if="isset($logo)"}
+        <div id="logo-container"><img class="logo" onerror="this.src='media/logos/logo.png'" src="../../{$logo}" /></div>
+    {/if}
+
+    <div id="slider" class="sl-slider-wrapper">
+        <div class="sl-slider">
+            <div class="sl-slide bg-1" data-orientation="horizontal" data-slice1-rotation="-25" data-slice2-rotation="-25" data-slice1-scale="2" data-slice2-scale="2">
+                <div class="sl-slide-inner">
+                    <div class="deco">
+                        <div class="deco-border">
+                            <img width="184" height="184" class="user-img" onerror="this.src='themes/default/assets/img/profile_icon.png'" src="assets/img/profile_icon.png" />
+                        </div>
+                    </div>
+                    <div class="slide-wrap">
+                        <h2><div id="user-name" >Welcome!</div></h2>
+                        <p>{$welcome}</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sl-slide bg-2" data-orientation="vertical" data-slice1-rotation="10" data-slice2-rotation="-15" data-slice1-scale="1.5" data-slice2-scale="1.5">
+                <div class="sl-slide-inner">
+                    <div class="deco">
+                        <div class="deco-border">
+                            <img width="184" height="184" class="server-img" onerror="this.src='media/logos/server_icon.png'" src="../../{$icon}" />
+                        </div>
+                    </div>
+                    <div class="slide-wrap">
+                        <div class="server-top">You're playing on...</div>
+                        <h2><div id="server-name" >Our Sever</div></h2>
+                    </div>
+                    {if="isset($rules)"}
+                    <div class="panel-container left">
+                        <div class="title"><h2>Rules</h2></div>
+                        <ul >
+                            {loop="rules"}
+                            <li><span>{$counter+1}</span> {$value}</li>
+                            {/loop}
+                        </ul>
+                    </div>
+                    {/if}
+                    {if="isset($staff)"}
+                    <div class="panel-container right">
+                        <div class="title"><h2>Staff</h2></div>
+                        <ul >
+                            {loop="staff"}
+                            <li><span>{$counter+1}</span> {$value}</li>
+                            {/loop}
+                        </ul>
+                    </div>
+                    {/if}
+                </div>
+            </div>
+
+            <div class="sl-slide bg-3" data-orientation="horizontal" data-slice1-rotation="3" data-slice2-rotation="3" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="map-back" >
+                        <div class="deco">
+                            <div class="deco-border">
+                                <img width="184" height="184" class="map-img" onerror="this.src='themes/default/assets/img/map_icon.png'" src="assets/img/map_icon.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-wrap">
+                        <h2>Map: <div id="map-name" >Map Unknown</div></h2>
+                    </div>
+                </div>
+            </div>
+
+            <div class="sl-slide bg-4" data-orientation="vertical" data-slice1-rotation="-5" data-slice2-rotation="25" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="gamemode-back" >
+                        <div class="deco">
+                            <div class="deco-border">
+                                <img width="184" height="184" class="gamemode-img" onerror="this.src='themes/default/assets/img/game_icon.png'" src="assets/img/game_icon.png" />
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slide-wrap">
+                        <h2><div id="game-mode" >Game Mode Unknown</div></h2>
+                    </div>
+                </div>
+            </div>
+            {if="isset($quote)"}
+            <div class="sl-slide bg-5" data-orientation="horizontal" data-slice1-rotation="-5" data-slice2-rotation="10" data-slice1-scale="2" data-slice2-scale="1">
+                <div class="sl-slide-inner">
+                    <div class="deco">
+                        <div class="deco-border">
+                            <img width="184" height="184" class="msg-img" onerror="this.src='themes/default/assets/img/msg_icon.png'" src="assets/img/msg_icon.png" />
+                        </div>
+                    </div>
+                    <div class="slide-wrap">
+                        <h2>Quote of the Day!</h2>
+                        <blockquote><p>{$quote}</p></blockquote>
+                    </div>
+                </div>
+            </div>
+            {/if}
+
+        </div>
+    </div>
+</div>
+
+{if="isset($music)"}
+    <audio id="player" autoplay></audio>
+    <ul id="playlist" >
+        {loop="music"}
+        <li data-ogg="{$value}"></li>
+        {/loop}
+    </ul>
+{/if}
+
+<div id="files"><ul class="container-files"> </ul></div>
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/gmod.js"></script>
+<script type="text/javascript" src="assets/js/jquery.cond.min.js"></script>
+<script type="text/javascript" src="assets/js/jquery.slitslider.js"></script>
+<script type="text/javascript" src="assets/js/init.js"></script>
+
+<script>
+    speed = {$speed}000;
+</script>
+
+{if="isset($music)"}
+<script type="text/javascript" >
+    $( document ).ready(function() {
+        var player = $('#player');
+        var playlist = $('#playlist');
+        var music = [];
+        var max = 0;
+
+        player.prop("volume", {$volume});
+
+        $('#playlist li').each( function( index, value ) {
+            music[index] = $( value ).attr('data-ogg');
+            max++;
+        });
+
+        function play_music(){
+            if ( max == 1 ){
+                player.attr("src", music[0]);
+                player.trigger("load");
+                player.trigger("play");
+                console.log("Now playing: " + music[0] );
+            }else{
+                var track = Math.floor((Math.random() * max) + 0);
+                while ( true ) {
+                    if ( player.attr("src") != music[track] ){
+                        player.attr("src", music[track]);
+                        player.trigger("load");
+                        player.trigger("play");
+                        console.log("Now playing: " + music[track] );
+                        break;
+                    }else{
+                        track = Math.floor((Math.random() * max) + 0);
+                    }
+                }
+            }
+        }
+
+        player.on( "ended", function(){
+            play_music();
+        });
+
+        play_music();
+    });
+</script>
+{/if}
+
+<script type="text/javascript" >
+    {if="isset($debug)"}
+        GMOD.Debug = true;
+    {/if}
+    {if="isset($test)"}
+        $( document ).ready(function() {
+            GMOD.Debug = true;
+            GMOD.Test( "Hex Load Games", "http://yourdomin.com/loading", "ttt_terrortown", 16, "76561197991928585", "terrortown" );
+        });
+    {/if}
+</script>
+
+</body>
+</html>

@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <script type="text/javascript" src="http://cdnjs.cloudflare.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+        <script type="text/javascript" src="http://netdna.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="http://pingendo.github.io/pingendo-bootstrap/themes/default/bootstrap.css" rel="stylesheet" type="text/css">
+        <title>Hex Load Help</title>
+    </head>
+    <style>
+        pre code { float: left; }
+        p { line-height: 23px;}
+    </style>
+    <body>
+        <div class="cover">
+            <div class="navbar">
+                <div class="container">
+                    <div class="navbar-header">
+                        <a class="navbar-brand" href="https://scriptfodder.com/scripts/view/1361"><span>HexLoad</span></a>
+                    </div>
+                </div>
+            </div>
+            <div class="cover-image" style="background-image: url(assets/back.jpg);"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <h1 class="text-inverse">Thank you for supporting me!</h1>
+                        <p class="text-inverse">Your awesome, please read the the installation instructions <br>and common error section before putting in a ticket, thanks! <br> Also dot forget to write a review!</p>
+                        <br>
+                        <br>
+                        <a href="https://scriptfodder.com/scripts/view/1361/reviews/" class="btn btn-lg btn-primary">Write a review!</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>Installation
+                    <small>What you need to get started with Hex Load!</small>
+                </h1>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/requirements.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Step 1</h1>
+                            <h3>Requirements</h3>
+                            <p>You need to have a web server with a domain for this to work, the web server
+                            <p>You need to have a web server with a domain for this to work, the web server
+                                must have php 5 installed on it, to test to see if your web server will
+                                run Hex Load upload <code>test.php</code> ( It's in <code>instructions/tester/</code>) and
+                                view it in your web browser. If it says "It'll run" then you can continue.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/config.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Step 2</h1>
+                            <h3>Config.php</h3>
+                            <p>Open find and open up the "config.php" file, it should be in the hexload folder. <br>Inside you'll see:</p>
+                            <pre><code>define( 'STEAM_API', 'YOUR_STEAM_API_KEY' );</code></pre>
+                            <p>Change the <code>STEAM_API</code> value to your Steam API code, you can get the code
+                                <a href="http://steamcommunity.com/dev/apikey" >here</a>.</p>
+                            <pre><code>define( 'BASE_URL', 'http://yourdomain.com/loading/' );</code></pre>
+                            <p>Change the <code>BASE_URL</code> value to your url that you uploaded Hex Load to, make sure to
+                                add the <code>/</code> at the end of your url.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/settings.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Step 3</h1>
+                            <h3>Settings.json</h3>
+                            <p>Open <code>theme/default/settings.json</code> and change the setting for you theme.</p>
+                            <p>Be careful when editing the json file, make sure every last item doesn't have a comma.</p>
+                            <p>Also if you want to remove an element form the page like staff, just add _off to the setting like this:</p>
+<pre><code>"staff_off": [
+    "Staff Member 1",
+    "Staff Member 2",
+    "Staff Member 3",
+    "Staff Member 4",
+    "Staff Member 5",
+    "Staff Member 6"
+],</code></pre>
+                            <p>and it will disappear from the loading screen.</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/upload.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Step 4</h1>
+                            <h3>Upload</h3>
+                            <p>This part is simple, just upload the hexload folder to the directory you want using your favorite FTP client (such as FileZilla)</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/test.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Step 5</h1>
+                            <h3>Test</h3>
+                            <p>Test HexLoad to make sure it's working right by going to your the url you uploaded it to and adding <code>?test</code> too it. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/gmod.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Step 6</h1>
+                            <h3>Garry's Mod</h3>
+                            <p>Last part is to add <code>sv_loadingurl "HEXLOD_URL"</code> to the <code>server.cfg</code> file or
+                                <code>autoexec.cfg</code> file. Remember to replace <code>HEXLOD_URL</code>
+                                with your url and leave out the <code>?test</code>. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>Additional Setup&nbsp;
+                    <font color="#777777">
+                        <span style="font-size: 23.3999996185303px; line-height: 23.3999996185303px;">How to's on changing Hex Load</span>
+                    </font>
+                </h1>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/maps.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Adding more Maps</h1>
+                            <h3>Make it look good!</h3>
+                            <p>open up <code>data/map.json</code> and you should see something like this:</p>
+<pre><code>"ttt_arena_1": {
+    "name": "Arena",
+    "icon": "media/icons/maps/ttt_arena_1.png",
+    "back": "media/backs/maps/ttt_arena_1.jpg"
+},</code></pre>
+                            <p>to add a map just duplicate it and change it to what you want, like so:</p>
+<pre><code>"map file name (w/o .bsp)": {
+    "name": "The name of map",
+    "icon": "file to icon",
+    "back": "file to background"
+},</code></pre>
+                            <p>to the top of the file. Make sure the end has a <code>,</code> or it will produce an error in hexload.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/gamemode.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Adding more Game Modes</h1>
+                            <h3>Make it look good!</h3>
+                            <p>Open up <code>data/game.json</code> and you should see something like this:</p>
+<pre><code>"terrortown": {
+    "name": "Trouble in Terrorist Town",
+    "icon": "media/icons/games/ttt_icon.png",
+    "back": "media/backs/games/terrortown.jpg"
+},</code></pre>
+                            <p>to add a game mode just duplicate it and change it to what you want, like so:</p>
+<pre><code>"gamemode folder name": {
+    "name": "Game mode name",
+    "icon": "file to icon",
+    "back": "file to background"
+},</code></pre>
+                            <p>to the top of the file. Make sure the end has a <code>,</code> or it will produce an error in HexLoad.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/icons.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Changing Icons / Logos</h1>
+                            <h3>We all need our logos!</h3>
+                            <p>Either replace <code>media/logos/logo.png</code> and <code>media/logos/server_icon.png</code> or change the settings in
+                                <code>theme/default/settings.json</code></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/music.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Adding Music</h1>
+                            <h3>Let's get the beats goin!</h3>
+                            <p>Upload your ogg file to the <code>media/music/</code> folder then open up <code>theme/default/settings.json</code>
+                                file and add them there, make sure your files don't have any spaces in them!<br> Example:</p>
+<pre><code>"music":[
+    "media/music/1.ogg",
+    "media/music/2.ogg",
+    "media/music/bla.ogg",
+    "media/music/you_name.ogg",
+],</code></pre>
+                            <p>The play will automatically shuffle them and play the song randomly.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="page-header">
+                <h1>Common Issues
+                    <font color="#777777">
+                        <span style="font-size: 23.3999996185303px; line-height: 23.3999996185303px;">Oops something went wrong, here how to fix it!</span>
+                    </font>
+                </h1>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/base_url.png"
+                            class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>The page looks weird</h1>
+                            <h3>BASE_URL</h3>
+                            <p>This is a common error with a simple solution, the BASE_URL was set wrong, double check it and make sure it ends with a slash .</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/no_music.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>My music is not Playing!</h1>
+                            <h3>What happened to the music?</h3>
+                            <p>Your ogg files are too large, you'll have to compress them more by lowering the bitrate.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img src="assets/server.png" class="img-responsive">
+                        </div>
+                        <div class="col-md-6">
+                            <h1>Stuck on server page!</h1>
+                            <h3>You've been timed out!</h3>
+                            <p>Sometimes HexLoad will be stuck on the server page, this is because it had an error getting additional data from your server,
+                                I have it set to just show that page in the event of an error. To fix this you might need to get a faster web host.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+
+</html>

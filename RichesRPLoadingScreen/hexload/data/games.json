@@ -1,0 +1,47 @@
+{
+  "sandbox": {
+    "name": "Sandbox",
+    "icon": "media/icons/games/sb_icon.png",
+    "back": "media/backs/games/sandbox.jpg"
+  },
+  "terrortown": {
+    "name": "Trouble in Terrorist Town",
+    "icon": "media/icons/games/ttt_icon.png",
+    "back": "media/backs/games/terrortown.jpg"
+  },
+  "prop_hunt": {
+    "name": "Prop Hunt",
+    "icon": "media/icons/games/ph_icon.png",
+    "back": "media/backs/games/prop_hunt.jpg"
+  },
+  "murder": {
+    "name": "Murder",
+    "icon": "media/icons/games/mu_icon.png",
+    "back": "media/backs/games/murder.jpg"
+  },
+  "deathrun": {
+    "name": "Death Run",
+    "icon": "media/icons/games/dr_icon.png",
+    "back": "media/backs/games/deathrun.jpg"
+  },
+  "darkrp": {
+    "name": "Dark Role Play",
+    "icon": "media/icons/games/rp_icon.png",
+    "back": "media/backs/games/darkrp.jpg"
+  },
+  "jailbreak": {
+    "name": "Jailbreak",
+    "icon": "media/icons/games/jb_icon.png",
+    "back": "media/backs/games/jailbreak.jpg"
+  },
+  "zombiesurvival": {
+    "name": "Zombie Survival",
+    "icon": "media/icons/games/zs_icon.png",
+    "back": "media/backs/games/zombiesurvival.jpg"
+  },
+  "cinema": {
+    "name": "Cinema",
+    "icon": "media/icons/games/cine_icon.png",
+    "back": "media/backs/games/cinema.jpg"
+  }
+}
